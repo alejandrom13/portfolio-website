@@ -2,7 +2,8 @@
 
 header('content-type: application/json');
 echo json_encode(['time' => time(), 'date' => date('d.m.Y'), 'tech' => 'Vercel']);
-?>
+
+echo '
 
 <!DOCTYPE html>
 <html lang="en">
@@ -13,6 +14,9 @@ echo json_encode(['time' => time(), 'date' => date('d.m.Y'), 'tech' => 'Vercel']
     <title>Document</title>
 </head>
 <body>
-    <a href="">create text</a>
+    <a href="">create tex</a>
 </body>
 </html>
+
+'
+?>
